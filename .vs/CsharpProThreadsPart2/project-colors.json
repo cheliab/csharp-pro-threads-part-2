@@ -5,7 +5,12 @@
       "ProjectGuid": "3e9cd660-91df-43ca-8a87-278a0a7db9b5",
       "DisplayName": "N_001_Volatile",
       "ColorIndex": 0
+    },
+    "d5786bcb-04d9-4c49-9b76-104bbba08a8c": {
+      "ProjectGuid": "d5786bcb-04d9-4c49-9b76-104bbba08a8c",
+      "DisplayName": "N_002_Volatile_StaticMethods",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
