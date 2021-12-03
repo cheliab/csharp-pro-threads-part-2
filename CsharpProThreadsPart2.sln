@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N_001_Volatile", "N_001_Volatile\N_001_Volatile.csproj", "{3E9CD660-91DF-43CA-8A87-278A0A7DB9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_002_Volatile_StaticMethods", "N_002_Volatile_StaticMethods\N_002_Volatile_StaticMethods.csproj", "{D5786BCB-04D9-4C49-9B76-104BBBA08A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N_002_Volatile_StaticMethods", "N_002_Volatile_StaticMethods\N_002_Volatile_StaticMethods.csproj", "{D5786BCB-04D9-4C49-9B76-104BBBA08A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_003_ThreadPool", "N_003_ThreadPool\N_003_ThreadPool.csproj", "{7D2F6599-A7DA-4940-8A66-B0654011F242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D5786BCB-04D9-4C49-9B76-104BBBA08A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5786BCB-04D9-4C49-9B76-104BBBA08A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5786BCB-04D9-4C49-9B76-104BBBA08A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
