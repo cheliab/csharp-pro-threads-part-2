@@ -10,7 +10,17 @@
       "ProjectGuid": "d5786bcb-04d9-4c49-9b76-104bbba08a8c",
       "DisplayName": "N_002_Volatile_StaticMethods",
       "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "7d2f6599-a7da-4940-8a66-b0654011f242": {
+      "ProjectGuid": "7d2f6599-a7da-4940-8a66-b0654011f242",
+      "DisplayName": "N_003_ThreadPool",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

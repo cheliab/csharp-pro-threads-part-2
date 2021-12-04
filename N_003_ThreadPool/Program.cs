@@ -25,7 +25,7 @@ public class Program
         Console.WriteLine($"Запущен поток {Thread.CurrentThread.Name}");
         Thread.Sleep(2000);
         Console.WriteLine($"Поток {Thread.CurrentThread.Name} завершил работу");
-        Console.WriteLine(Environment.NewLine);
+        Console.Write(Environment.NewLine);
     }
 
     public static void Task2(object? state)
@@ -34,7 +34,7 @@ public class Program
         Console.WriteLine($"Запущен поток {Thread.CurrentThread.Name}");
         Thread.Sleep(2000);
         Console.WriteLine($"Поток {Thread.CurrentThread.Name} завершил работу");
-        Console.WriteLine(Environment.NewLine);
+        Console.Write(Environment.NewLine);
     }
 
     /// <summary>
@@ -51,6 +51,28 @@ public class Program
 
         Console.WriteLine($"Доступно рабочих потоков в пуле     : {availableWorkThreads} из {maxWorkThreads}");
         Console.WriteLine($"Доступно потоков ввода-вывода в пуле: {availableIOThreads} из {maxIOThreads}");
-        Console.WriteLine(Environment.NewLine);
+        Console.Write(Environment.NewLine);
     }
 }
+
+//Результат:
+
+//Main - Начало
+//Доступно рабочих потоков в пуле     : 32766 из 32767
+//Доступно потоков ввода-вывода в пуле: 1000 из 1000
+
+//Запущен поток 1
+//Доступно рабочих потоков в пуле     : 32765 из 32767
+//Доступно потоков ввода-вывода в пуле: 1000 из 1000
+
+//Запущен поток 2
+//Доступно рабочих потоков в пуле     : 32764 из 32767
+//Доступно потоков ввода-вывода в пуле: 1000 из 1000
+
+//Поток 1 завершил работу
+
+//Поток 2 завершил работу
+
+//Main - Конец
+//Доступно рабочих потоков в пуле     : 32766 из 32767
+//Доступно потоков ввода-вывода в пуле: 1000 из 1000
