@@ -1,4 +1,5 @@
-﻿
+﻿// Использование пула потоков
+// Вывод количества потоков
 public class Program
 {
     public static void Main()

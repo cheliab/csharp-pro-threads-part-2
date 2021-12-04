@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N_002_Volatile_StaticMethod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_003_ThreadPool", "N_003_ThreadPool\N_003_ThreadPool.csproj", "{7D2F6599-A7DA-4940-8A66-B0654011F242}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_004_Mutex", "N_004_Mutex\N_004_Mutex.csproj", "{4564BF26-0B47-4A48-8F18-B84C7CDA10A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2F6599-A7DA-4940-8A66-B0654011F242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4564BF26-0B47-4A48-8F18-B84C7CDA10A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4564BF26-0B47-4A48-8F18-B84C7CDA10A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4564BF26-0B47-4A48-8F18-B84C7CDA10A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4564BF26-0B47-4A48-8F18-B84C7CDA10A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
