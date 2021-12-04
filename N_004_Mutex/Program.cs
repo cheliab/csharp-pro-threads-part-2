@@ -18,13 +18,16 @@ class Program
     
     static void Main()
     {
+        Console.WindowWidth = 40;
+        Console.WindowHeight = 20;
+        
         Thread[] threads = new Thread[5];
 
         for (int i = 0; i < 5; i++)
         {
             threads[i] = new Thread(Function);
             threads[i].Name = i.ToString();
-            // Thread.Sleep(500); // Потоки из разных процессов не успеют стартовать
+            Thread.Sleep(1000); // Задержка чтобы перемешать потоки в запущенных приложениях
             threads[i].Start();
         }
         
