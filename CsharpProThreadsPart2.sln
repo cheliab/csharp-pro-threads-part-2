@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_004_Mutex", "N_004_Mutex\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_005_Mutex_Recursion", "N_005_Mutex_Recursion\N_005_Mutex_Recursion.csproj", "{86F284D5-488D-4891-A8BA-FB499C377B1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_006_Semaphore", "N_006_Semaphore\N_006_Semaphore.csproj", "{5D9E71B2-BF62-4C7B-BBCD-9A2B68F4D279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{86F284D5-488D-4891-A8BA-FB499C377B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F284D5-488D-4891-A8BA-FB499C377B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F284D5-488D-4891-A8BA-FB499C377B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9E71B2-BF62-4C7B-BBCD-9A2B68F4D279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9E71B2-BF62-4C7B-BBCD-9A2B68F4D279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9E71B2-BF62-4C7B-BBCD-9A2B68F4D279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9E71B2-BF62-4C7B-BBCD-9A2B68F4D279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

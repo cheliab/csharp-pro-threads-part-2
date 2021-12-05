@@ -1,6 +1,9 @@
-﻿
-// Альтернативный способ работы с volatile
-// Статические методы VolatileWrite() и VolatileRead()
+﻿namespace N_002_Volatile_StaticMethods;
+
+/// <summary>
+/// Альтернативный способ работы с volatile
+/// Статические методы VolatileWrite() и VolatileRead()
+/// </summary>
 public class Program 
 {
     // теперь тут можно не использовать volatile

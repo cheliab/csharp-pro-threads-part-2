@@ -1,5 +1,9 @@
-﻿// Использование пула потоков
-// Вывод количества потоков
+﻿namespace N_003_ThreadPool;
+
+/// <summary>
+/// Использование пула потоков
+/// Вывод количества потоков
+/// </summary>
 public class Program
 {
     public static void Main()

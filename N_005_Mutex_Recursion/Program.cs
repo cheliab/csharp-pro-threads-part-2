@@ -1,6 +1,8 @@
 ﻿// Рекурсивное запирание
 // (не очень понял в чем прикол, так как если удалить из 2 метода использование мьютекса результат не изменится)
 
+namespace N_005_Mutex_Recursion;
+
 class Program
 {
     private static Mutex mutex = new Mutex(); 
