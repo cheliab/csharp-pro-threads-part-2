@@ -13,8 +13,8 @@ class Program
     // 1. Запоминает какой поток им владеет. ReleaseMutex не может вызвать поток, который не владеет им
     // 2. Управляет рекурсиным счетчиком, указывающим, сколько раз поток-владелец уже владел объектом
     
-    // private static Mutex mutex = new Mutex(); // Без названия нет межпроцессной синхронизации
-    private static Mutex mutex = new Mutex(false, "MyMutex");
+    private static Mutex mutex = new Mutex(); // Без названия нет межпроцессной синхронизации
+    // private static Mutex mutex = new Mutex(false, "MyMutex");
     
     static void Main()
     {
