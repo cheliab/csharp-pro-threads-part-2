@@ -36,7 +36,7 @@ public class Program
         
         _pool = new Semaphore(2, 4, "MySemaphore");
 
-        // _pool.Release(); // Сбросить занятые слоты (2), всего свободно 4
+        _pool.Release(2); // Сбросить занятые слоты (2), всего свободно 4
 
         for (int i = 1; i <= 8; i++)
         {
