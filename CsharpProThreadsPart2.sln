@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_006_Semaphore", "N_006_Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_007_SemaphoreSlim", "N_007_SemaphoreSlim\N_007_SemaphoreSlim.csproj", "{0B811654-E872-4349-8C89-E0B49EF43BA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_008_AutoResetEvent", "N_008_AutoResetEvent\N_008_AutoResetEvent.csproj", "{03AC86AA-7B6D-43FF-A121-25B00F30AA45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0B811654-E872-4349-8C89-E0B49EF43BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B811654-E872-4349-8C89-E0B49EF43BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B811654-E872-4349-8C89-E0B49EF43BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AC86AA-7B6D-43FF-A121-25B00F30AA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AC86AA-7B6D-43FF-A121-25B00F30AA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AC86AA-7B6D-43FF-A121-25B00F30AA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AC86AA-7B6D-43FF-A121-25B00F30AA45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
