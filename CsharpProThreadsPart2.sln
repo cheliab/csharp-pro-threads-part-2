@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_010_ManualResetEvent", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_011_ManualResetSlim", "N_011_ManualResetSlim\N_011_ManualResetSlim.csproj", "{BE39677A-1B5D-4211-91A7-C46F484D5D49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_012_ManualResetEvent_ResetMethod", "N_012_ManualResetEvent_ResetMethod\N_012_ManualResetEvent_ResetMethod.csproj", "{DBCC0745-BC07-4053-9F27-1DF89927C477}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BE39677A-1B5D-4211-91A7-C46F484D5D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE39677A-1B5D-4211-91A7-C46F484D5D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE39677A-1B5D-4211-91A7-C46F484D5D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCC0745-BC07-4053-9F27-1DF89927C477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCC0745-BC07-4053-9F27-1DF89927C477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCC0745-BC07-4053-9F27-1DF89927C477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCC0745-BC07-4053-9F27-1DF89927C477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
